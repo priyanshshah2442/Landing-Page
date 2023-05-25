@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand ms-5" href="#">
+                <img src="./images/logo.png" id="logo" alt="Logo" ">
+          </a>
+          <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary me-5" type="submit">Search</button>
+                    </form>
+                    <div class="d-flex">
+                        <a class="btn btn-outline-primary ms-2 me-2 ms-lg-5 me-2 mt-sm-2" href="#">Home</a>
+                        <a class="btn btn-primary ms-2 me-2 mt-sm-2" href="#">Login</a>
+                        <a class="btn btn-secondary ms-2 me-2 mt-sm-2 disabled" href="#">Cart</a>
+                    </div>
+                </div>
+
+        </div>
+    </nav>
+
+    <div class="container mt-5 ">
+        <div class="row ">
+
+            <div class="col-lg-5">
+                <img src="./images/p1.jpeg" id="main-disp-image">
+            </div>
+            <div class="col-lg-2 d-flex flex-sm-row flex-xs-row flex-md-row flex-row flex-wrap">
+                <div id="disp-img-1" class="disp-img"><img src="./images/p1.jpeg"></div>
+                <div id="disp-img-2" class="disp-img"><img src="./images/p2.webp"></div>
+                <div id="disp-img-3" class="disp-img"><img src="./images/p3.webp"></div>
+                <div id="disp-img-4" class="disp-img"><img src="./images/p4.webp"></div>
+                <div id="disp-img-5" class="disp-img"><img src="./images/p5.webp"></div>
+                <div id="disp-img-6" class="disp-img"><img src="./images/p6.webp"></div>
+            </div>
+            <div class="col-lg-5 mt-2 sideTextArea">
+                <div class="productInfo ">
+                    <h2>Nike Air Max Furyosa</h2>
+                    <pre>Men's Shoes   <img src="./images/new.svg" style="width: 30px;"></pre>
+
+                    <h3><b>MRP : <span id="price">₹10000.00&nbsp;&nbsp;</span></b><span
+                            style="text-decoration: line-through;font-size:20px;font-weight: 200;">₹15000.00</span></h3>
+                </div>
+                <div class="sizes mt-4">
+                    <h6>Select size</h6>
+                    <div class="row">
+                        <div class="col-3"><button class="btn btn-outline-secondary sizes "> Eu 36</button></div>
+                        <div class="col-3"><button class="btn btn-outline-secondary sizes"> Eu 37</button></div>
+                        <div class="col-3"><button class="btn btn-outline-secondary sizes"> Eu 38</button></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3"><button class="btn btn-outline-secondary sizes "> Eu 39</button></div>
+                        <div class="col-3"><button class="btn btn-outline-secondary sizes"> Eu 40</button></div>
+                        <div class="col-3"><button class="btn btn-outline-secondary sizes"> Eu 41</button></div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-9 ms-3 me-3"><button class="btn btn-dark" style="width: 90%;">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-9 ms-3 me-3"><button class="btn btn-outline-secondary" style="width: 90%;">Add to
+                            Favourite</button></div>
+                </div>
+                <div class="mt-3 ms-3"><b>Available offers</b></div>
+                <div class="offer mt-2 ms-2">
+                    <ul>
+                        <li>Bank Offer : Flat ₹1250 Discount on HDFC Bank Credit Card Transactions on orders of ₹15,000
+                            and above <a href="#">T&C</a></li>
+                        <li>Bank Offer :10% off on Citi Credit Card EMI Transactions, up to ₹2,000 on orders of ₹5,000
+                            and above <a href="#">T&C</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-3 d-flex flex-sm-column flex-xs-column flex-md-row flex-column flex-wrap">
+            <div class="col-xs-12 col-sm-12  col-lg-6 mt-3">
+                <p>Deliver to : </p>
+                <p style="border: 1px solid gray; padding:10px;"><b>Priyansh Shah</b>, Lorem ipsum dolor sit amet
+                    consectetur, adipisicing.</p>
+                <p><b>Delivery by 30th May, 2023</b></p>
+                <p class="mb-1">Or </p>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Enter pincode" aria-label="Search">
+                    <button class="btn btn-outline-primary me-5" type="submit">Search</button>
+                </form>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-6 ">
+                <div class="description mt-3">
+                    <b>Description : <br></b>
+                    Michael Jordan earned the nickname "Black Cat" for his superior athletic ability and prowess at both
+                    ends of the court. That nickname became the muse for the Tinker Hatfield-designed Air Jordan 13.
+                    Featuring a panther-paw-like sole and "cat eye" holograph, Michael rode the mid-top shoe all the way
+                    to his 6th ring in '98, the last triumph of his legendary career. The Air Jordan 13 Retro brings
+                    back the stealthy, shrouded design with a fresh mix of colours and textures.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <h4 class="mt-4 ">Customer reivew</h4>
+    </div>
+        <div class="container mt-4">
+            <div class="row flex-sm-column flex-xs-column flex-md-row flex-row flex-wrap">
+            <div class="col-lg-5 col-sm-12 customertestimonials border border-dark-subtle rounded p-4 mb-4 me-5">
+                <div class="row">
+                    <div class="col-3" style="width: 80px;"><img src="./images/customer.jpg"
+                        style="width:100%;height: 100%;object-fit: fill;border-radius: 50%;"></div>
+                <div class="col">
+                    <div class="row"><b>Priyansh Shah</b></div>
+                    <div class="row"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                            class="ratings"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                            class="ratings"><img src="./images/star-shape.svg"
+                            class="ratings"></div>
+                </div>
+                </div>
+                <div class="customerfeeedbackdescription">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam hic commodi cumque non optio amet, provident sapiente dolore blanditiis tempora?
+                </div>
+            </div>
+            <div class="col-lg-5 col-sm-12 customertestimonials border border-dark-subtle rounded p-4 mb-4">
+                <div class="row">
+                    <div class="col-3" style="width: 80px;"><img src="./images/customer.jpg"
+                        style="width:100%;height: 100%;object-fit: fill;border-radius: 50%;"></div>
+                <div class="col">
+                    <div class="row"><b>Priyansh Shah</b></div>
+                    <div class="row"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                            class="ratings"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                            class="ratings"><img src="./images/star-shape.svg"
+                            class="ratings"></div>
+                </div>
+                </div>
+                <div class="customerfeeedbackdescription">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam hic commodi cumque non optio amet, provident sapiente dolore blanditiis tempora?
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row flex-sm-column flex-xs-column flex-md-row flex-row flex-wrap">
+        <div class="col-lg-5 col-sm-12 customertestimonials border border-dark-subtle rounded p-4 mb-4 me-5">
+            <div class="row">
+                <div class="col-3" style="width: 80px;"><img src="./images/customer.jpg"
+                    style="width:100%;height: 100%;object-fit: fill;border-radius: 50%;"></div>
+            <div class="col">
+                <div class="row"><b>Priyansh Shah</b></div>
+                <div class="row"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                        class="ratings"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                        class="ratings"><img src="./images/star-shape.svg"
+                        class="ratings"></div>
+            </div>
+            </div>
+            <div class="customerfeeedbackdescription">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam hic commodi cumque non optio amet, provident sapiente dolore blanditiis tempora?
+            </div>
+        </div>
+        <div class="col-lg-5 col-sm-12 customertestimonials border border-dark-subtle rounded p-4 mb-4">
+            <div class="row">
+                <div class="col-3" style="width: 80px;"><img src="./images/customer.jpg"
+                    style="width:100%;height: 100%;object-fit: fill;border-radius: 50%;"></div>
+            <div class="col">
+                <div class="row"><b>Priyansh Shah</b></div>
+                <div class="row"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                        class="ratings"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                        class="ratings"><img src="./images/star-shape.svg"
+                        class="ratings"></div>
+            </div>
+            </div>
+            <div class="customerfeeedbackdescription">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam hic commodi cumque non optio amet, provident sapiente dolore blanditiis tempora?
+            </div>
+        </div>
+    </div>
+</div><div class="container mt-4">
+    <div class="row d-flex flex-sm-column flex-xs-column flex-md-row flex-row flex-wrap">
+    <div class="col-lg-5 col-sm-12 customertestimonials border border-dark-subtle rounded p-4 mb-4 me-5">
+        <div class="row">
+            <div class="col-3" style="width: 80px;"><img src="./images/customer.jpg"
+                style="width:100%;height: 100%;object-fit: fill;border-radius: 50%;"></div>
+        <div class="col">
+            <div class="row"><b>Priyansh Shah</b></div>
+            <div class="row"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                    class="ratings"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                    class="ratings"><img src="./images/star-shape.svg"
+                    class="ratings"></div>
+        </div>
+        </div>
+        <div class="customerfeeedbackdescription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam hic commodi cumque non optio amet, provident sapiente dolore blanditiis tempora?
+        </div>
+    </div>
+    <div class="col-lg-5 col-sm-12 customertestimonials border border-dark-subtle rounded p-4 mb-4">
+        <div class="row d-flex flex-sm-row flex-xs-row flex-md-row flex-row flex-wrap">
+            <div class="col-3" style="width: 80px;"><img src="./images/customer.jpg"
+                style="width:100%;height: 100%;object-fit: fill;border-radius: 50%;"></div>
+        <div class="col">
+            <div class="row"><b>Priyansh Shah</b></div>
+            <div class="row"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                    class="ratings"><img src="./images/star.svg" class="ratings"><img src="./images/star.svg"
+                    class="ratings"><img src="./images/star-shape.svg"
+                    class="ratings"></div>
+        </div>
+        </div>
+        <div class="customerfeeedbackdescription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam hic commodi cumque non optio amet, provident sapiente dolore blanditiis tempora?
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
